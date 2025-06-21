@@ -1,27 +1,43 @@
-title: About Me
-description: Learn more about my journey as a Boston-based UX/UI Designer & Front-End Developer, my design philosophy, and my passion for crafting intuitive digital experiences.
+title: About TSMC LLC
+description: Learn about TSMC LLC's journey from startup to successful digital ventures company, our mission, and our portfolio of innovative brands.
 content: |
-  Hi, I'm **Emma Thompson**, a UX/UI Designer and Front-End Developer based right here in Boston. For the past six years, I've been immersed in the world of digital product creation, focusing on building experiences that are not just functional, but genuinely intuitive and engaging for users.
+  **TSMC LLC** is a diversified digital brand specializing in creating and growing online business ventures. Founded in April 2019 by **M. Devin Schumacher**, the company has grown from a single-person startup to a thriving organization with multiple successful brands.
 
-  My path started at **Boston University**, where I earned a degree in Interactive Design. It was there I discovered my dual passion for the visual language of design and the logical puzzle of code. Since then, I've honed my skills in both areas, believing that the best digital products are born from a deep understanding of both aesthetics and implementation.
+  ### Our Founder
 
-  ### My Design Philosophy
+  **M. Devin Schumacher** is an entrepreneur with over 10 years of experience in digital marketing. He bootstrapped SERP from $0 to $2.5M+ per year with a team of 25+ employees, earning recognition as a leading figure in the SEO community through innovative strategies and demonstrable results.
 
-  My design philosophy is rooted in **empathy** and **problem-solving**. I believe great design starts with understanding the 'why' – the user's needs, motivations, and pain points. I use research, iterative prototyping (often with tools like Figma), and user testing to ensure the solutions I build are truly effective.
+  His educational background includes a Bachelor of Science in Business Administration - Finance from the University of Colorado Boulder's Leeds School of Business (2009).
 
-  I strive to create interfaces that feel effortless, where functionality and beauty work hand-in-hand. Whether I'm crafting pixel-perfect UIs or writing clean Vue.js/Nuxt.js code, my focus is always on creating value for the end-user.
+  ### Our Journey
 
-  ### What Drives Me
+  - **2019**: Founded TSMC LLC and launched SERP, the company's flagship digital media brand
+  - **2019-2023**: Built and successfully exited SERP Agency (SERPCO, LLC) in a multi-7-figure acquisition after helping 1,300+ businesses add $100M+ in combined revenue
+  - **2020**: Launched SCHUMACHER INC, a business consulting company
+  - **2022**: Founded SERP AI, dedicated to providing free access to AI education, tools, and information
 
-  What keeps me excited about this work is the constant learning and the challenge of translating complex ideas into simple, elegant solutions. There's nothing more rewarding than seeing a design come to life and knowing it's making someone's digital interaction easier or more enjoyable.
+  ### Our Mission
 
-  ### Beyond the Screen
+  We're developing websites, software, and artificial intelligence solutions to help bring digital products & education to all individuals for free. Our focus is on democratizing access to technology and knowledge that can transform businesses and lives.
 
-  When I'm not designing or coding, you might find me exploring Boston's latest coffee shops, hiking nearby trails, or occasionally contributing to open-source projects.
+  ### Our Impact
 
-  Thanks for stopping by. Feel free to browse my [projects](/projects) or [get in touch](/#contact) if you'd like to collaborate!
+  Through our portfolio of brands, we've:
+  - Helped thousands of businesses across 247+ industries grow online
+  - Built a team of 20+ talented professionals
+  - Developed proprietary tools and software to enhance digital marketing practices
+  - Successfully exited ventures while continuing to innovate and expand
+
+  ### Core Competencies
+
+  - **Business Development**: Strategic planning, scaling operations, and financial management
+  - **Digital Marketing**: SEO, digital strategy, and online lead generation
+  - **Technology**: JavaScript, Python, TypeScript, AI/ML, and modern web development
+  - **Leadership**: Team building, mentorship, and creating sustainable business cultures
+
+  Thanks for visiting. Feel free to explore our [brands](/brands) or [contact us](mailto:contact+tsmc@serp.co) to discuss potential partnerships!
 images:
-  - src: https://images.unsplash.com/photo-1744877478622-a78c7a3336f6?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    alt: My coffee workspace
-  - src: https://images.unsplash.com/photo-1744429523595-2c06b8611242?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    alt: My trip to Tokyo
+  - src: /brands/serp.co.jpeg
+    alt: SERP Digital Platform
+  - src: /brands/serpai.jpg
+    alt: SERP AI Platform

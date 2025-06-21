@@ -1,12 +1,12 @@
 seo:
   title: "TSMC LLC"
-  description: "TSMC LLC is a diversified digital brand specializing in creating and growing online business ventures. Founded in August 2023, TSMC serves as the parent company behind several successful digital initiatives."
+  description: "TSMC LLC is a diversified digital brand specializing in creating and growing online business ventures. Founded in April 2019 by M. Devin Schumacher, TSMC serves as the parent company behind several successful digital initiatives."
 title: "TSMC LLC"
-description: "A diversified digital brand specializing in creating and growing online business ventures. Parent company of the SERP family of brands and other successful digital initiatives."
+description: "Founded by M. Devin Schumacher in 2019. Parent company of SERP ($2.5M+/year, 20+ employees), SERP AI, SCHUMACHER INC, and the successfully exited SERP Agency (multi-7-figure acquisition)."
 hero:
   links:
-    - label: "Projects"
-      to: "/projects"
+    - label: "Brands"
+      to: "/brands"
       color: "neutral"
   images:
     - src: /brands/serp.co.jpeg
@@ -20,9 +20,9 @@ hero:
     - src: /brands/daft.fm.jpeg
       alt: DAFT FM - Music Platform
     - src: /brands/serp.agency.jpeg
-      alt: SERP Agency - Digital Agency (SOLD)
+      alt: SERP Agency - Digital Agency (ACQUIRED)
     - src: /brands/serpdental.com.jpeg
-      alt: SERP Dental - Dental Platform (SOLD)
+      alt: SERP Dental - Dental Platform (ACQUIRED)
     - src: /brands/serp.co.jpeg
       alt: SERP.co - Digital Platform
     - src: /brands/serpai.jpg
@@ -30,7 +30,7 @@ hero:
 about:
   title: "About"
   description: |
-    A diversified digital brand specializing in creating and growing online business ventures. Parent company of the SERP family of brands and other successful digital initiatives.
+    Founded in 2019 by M. Devin Schumacher, an entrepreneur with 10+ years of experience in digital marketing. TSMC LLC has bootstrapped multiple successful ventures including SERP (now $2.5M+/year with 20+ employees), SERP AI, and executed a multi-7-figure exit of SERP Agency within 3 years. The company focuses on developing websites, software, and AI solutions to democratize access to digital products and education.
 experience:
   title: Brands
   items:
@@ -77,14 +77,14 @@ experience:
         url: "https://daft.fm"
         color: "#10B981"
     - position: "Dental Platform"
-      date: "SOLD"
+      date: "ACQUIRED"
       company:
         name: SERP Dental
         logo: ""
         url: "https://serp.dental"
         color: "#EF4444"
     - position: "Digital Agency"
-      date: "SOLD"
+      date: "ACQUIRED"
       company:
         name: SERP Agency
         logo: ""
