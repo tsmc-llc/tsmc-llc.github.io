@@ -11,7 +11,7 @@ if (!page.value) {
 }
 
 const { data: brands } = await useAsyncData('brands', () => {
-  return queryCollection('brands').all()
+  return queryCollection('brands').order('date', 'DESC').all()
 })
 
 const { global } = useAppConfig()
@@ -79,9 +79,18 @@ useSeoMeta({
           }"
         >
           <template #leading>
-            <span class="text-sm text-muted">
-              {{ new Date(brand.date).getFullYear() }}
-            </span>
+            <div class="flex flex-col gap-1">
+              <span class="text-sm text-muted">
+                {{ new Date(brand.date).getFullYear() }}
+              </span>
+              <UBadge
+                v-if="brand.badge"
+                :label="brand.badge"
+                color="red"
+                variant="subtle"
+                size="xs"
+              />
+            </div>
           </template>
           <template #footer>
             <ULink
