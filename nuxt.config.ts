@@ -10,8 +10,15 @@ export default defineNuxtConfig({
     'motion-v/nuxt'
   ],
 
+  ssr: true,
+
   devtools: {
     enabled: true
+  },
+
+  app: {
+    baseURL: '/',
+    buildAssetsDir: '_nuxt/'
   },
 
   css: ['~/assets/css/main.css'],
@@ -30,13 +37,6 @@ export default defineNuxtConfig({
       crawlLinks: true
     }
   },
-
-  app: {
-    baseURL: '/',
-    buildAssetsDir: '_nuxt/'
-  },
-
-  ssr: true,
 
   eslint: {
     config: {

@@ -1,61 +1,95 @@
 seo:
-  title: "Emma Thompson - UX/UI Designer"
-  description: "Welcome to my portfolio! I'm Emma Thompson, a UX/UI designer and front-end developer based in Boston. I specialize in creating user-centered digital experiences that are both beautiful and functional."
-title: "Hey, I'm Emma Thompson UX/UI Designer"
-description: "I craft intuitive digital experiences where design meets functionality. Based in Boston, bringing ideas to life through code and creativity."
+  title: "TSMC LLC"
+  description: "TSMC LLC is a diversified digital brand specializing in creating and growing online business ventures. Founded in August 2023, TSMC serves as the parent company behind several successful digital initiatives."
+title: "TSMC LLC"
+description: "A diversified digital brand specializing in creating and growing online business ventures. Parent company of the SERP family of brands and other successful digital initiatives."
 hero:
   links:
-    - label: "Use this template"
-      to: https://github.com/nuxt-ui-pro/portfolio
+    - label: "Projects"
+      to: "/projects"
       color: "neutral"
   images:
-    - src: https://picsum.photos/468/468?random=1
-      alt: Random Image 1
-    - src: https://picsum.photos/468/468?random=2
-      alt: Random Image 2
-    - src: https://picsum.photos/468/468?random=3
-      alt: Random Image 3
-    - src: https://picsum.photos/468/468?random=4
-      alt: Random Image 4
-    - src: https://picsum.photos/468/468?random=5
-      alt: Random Image 5
-    - src: https://picsum.photos/468/468?random=6
-      alt: Random Image 6
-    - src: https://picsum.photos/468/468?random=6
-      alt: Random Image 6
-    - src: https://picsum.photos/468/468?random=7
-      alt: Random Image 7
-    - src: https://picsum.photos/468/468?random=8
-      alt: Random Image 8
+    - src: /brands/serp.co.jpeg
+      alt: SERP.co - Digital Platform
+    - src: /brands/serpai.jpg
+      alt: SERP AI - AI Solutions
+    - src: /brands/serp.media.jpeg
+      alt: SERP Media Platform
+    - src: /brands/boxingundefeatedcom.jpeg
+      alt: Boxing Undefeated - Everything Boxing
+    - src: /brands/daft.fm.jpeg
+      alt: DAFT FM - Music Platform
+    - src: /brands/serp.agency.jpeg
+      alt: SERP Agency - Digital Agency (SOLD)
+    - src: /brands/serpdental.com.jpeg
+      alt: SERP Dental - Dental Platform (SOLD)
+    - src: /brands/serp.co.jpeg
+      alt: SERP.co - Digital Platform
+    - src: /brands/serpai.jpg
+      alt: SERP AI - AI Solutions
 about:
-  title: "About Me"
+  title: "About"
   description: |
-    As a UX/UI designer and front-end developer with 6 years of experience, I leverage my Boston University Interactive Design degree to craft user-centered digital experiences.
-    My approach blends creative strategy with technical expertise, transforming concepts into functional, purposeful digital products that seamlessly integrate design and technology.
+    A diversified digital brand specializing in creating and growing online business ventures. Parent company of the SERP family of brands and other successful digital initiatives.
 experience:
-  title: Work Experience
+  title: Brands
   items:
-    - position: "Brand Designer at"
-      date: "2023 - Present"
+    - position: "Digital Platform"
+      date: "Active"
       company:
-        name: Nuxt
-        logo: "i-simple-icons-nuxtdotjs"
-        url: "https://nuxt.com"
-        color: "#00DC82"
-    - position: "Assets Designer at"
-      date: "2022 - 2023"
+        name: SERP
+        logo: ""
+        url: "https://serp.co"
+        color: "#10B981"
+    - position: "AI Solutions"
+      date: "Active"
       company:
-        name: Raycast
-        logo: "i-simple-icons-raycast"
-        url: "https://raycast.com"
-        color: "#FF6363"
-    - position: "Senior UX/UI Designer at"
-      date: "2020 - 2021"
+        name: SERP AI
+        logo: ""
+        url: "https://serp.ai"
+        color: "#10B981"
+    - position: "Business Solutions"
+      date: "Active"
       company:
-        name: Linear
-        logo: "i-simple-icons-linear"
-        url: "https://linear.app"
-        color: "#5E6AD2"
+        name: SERP Solutions
+        logo: ""
+        url: "https://serp.solutions"
+        color: "#10B981"
+    - position: "Media Platform"
+      date: "Active"
+      company:
+        name: SERP Media
+        logo: ""
+        url: "https://serp.media"
+        color: "#10B981"
+    - position: "Everything Boxing"
+      date: "Active"
+      company:
+        name: Boxing Undefeated
+        logo: ""
+        url: "https://boxingundefeated.com"
+        color: "#10B981"
+    - position: "Music Platform"
+      date: "Active"
+      company:
+        name: DAFT FM
+        logo: ""
+        url: "https://daft.fm"
+        color: "#10B981"
+    - position: "Dental Platform"
+      date: "SOLD"
+      company:
+        name: SERP Dental
+        logo: ""
+        url: "https://serp.dental"
+        color: "#EF4444"
+    - position: "Digital Agency"
+      date: "SOLD"
+      company:
+        name: SERP Agency
+        logo: ""
+        url: "https://serp.agency"
+        color: "#EF4444"
 testimonials:
   - quote: "Emma's approach to UX design completely transformed our product. She has a rare ability to balance beautiful aesthetics with functional simplicity. The redesign not only looked better, but it reduced our customer support tickets by 40% and increased conversion rates across all key metrics."
     author:
@@ -79,8 +113,8 @@ testimonials:
         src: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
         srcset: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
 blog:
-  title: "Latest Articles"
-  description: "Some of my recent thoughts"
+  title: "Posts"
+  description: ""
 faq:
   title: Frequently Asked Questions
   description: Answers to common questions about my process and services.
