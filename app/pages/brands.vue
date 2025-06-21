@@ -1,6 +1,6 @@
 <script setup lang="ts">
-const { data: page } = await useAsyncData('projects-page', () => {
-  return queryCollection('pages').path('/projects').first()
+const { data: page } = await useAsyncData('brands-page', () => {
+  return queryCollection('pages').path('/brands').first()
 })
 if (!page.value) {
   throw createError({
@@ -10,8 +10,8 @@ if (!page.value) {
   })
 }
 
-const { data: projects } = await useAsyncData('projects', () => {
-  return queryCollection('projects').all()
+const { data: brands } = await useAsyncData('brands', () => {
+  return queryCollection('brands').all()
 })
 
 const { global } = useAppConfig()
@@ -59,17 +59,17 @@ useSeoMeta({
       }"
     >
       <Motion
-        v-for="(project, index) in projects"
-        :key="project.title"
+        v-for="(brand, index) in brands"
+        :key="brand.title"
         :initial="{ opacity: 0, transform: 'translateY(10px)' }"
         :while-in-view="{ opacity: 1, transform: 'translateY(0)' }"
         :transition="{ delay: 0.2 * index }"
         :in-view-options="{ once: true }"
       >
         <UPageCard
-          :title="project.title"
-          :description="project.description"
-          :to="project.url"
+          :title="brand.title"
+          :description="brand.description"
+          :to="brand.url"
           orientation="horizontal"
           variant="naked"
           :reverse="index % 2 === 1"
@@ -80,15 +80,15 @@ useSeoMeta({
         >
           <template #leading>
             <span class="text-sm text-muted">
-              {{ new Date(project.date).getFullYear() }}
+              {{ new Date(brand.date).getFullYear() }}
             </span>
           </template>
           <template #footer>
             <ULink
-              :to="project.url"
+              :to="brand.url"
               class="text-sm text-primary flex items-center"
             >
-              View Project
+              View Brand
               <UIcon
                 name="i-lucide-arrow-right"
                 class="size-4 text-primary transition-all opacity-0 group-hover:translate-x-1 group-hover:opacity-100"
@@ -96,8 +96,8 @@ useSeoMeta({
             </ULink>
           </template>
           <img
-            :src="project.image"
-            :alt="project.title"
+            :src="brand.image"
+            :alt="brand.title"
             class="object-cover w-full h-48 rounded-lg"
           >
         </UPageCard>
