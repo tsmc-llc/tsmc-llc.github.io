@@ -4,7 +4,9 @@
       "Bash(gh issue view:*)",
       "WebFetch(domain:github.com)",
       "Bash(ls:*)",
-      "Bash(mv:*)"
+      "Bash(mv:*)",
+      "Bash(gh issue list:*)",
+      "Bash(find:*)"
     ],
     "deny": []
   }

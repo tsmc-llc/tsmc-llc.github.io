@@ -31,6 +31,13 @@ export default defineNuxtConfig({
     }
   },
 
+  app: {
+    baseURL: '/',
+    buildAssetsDir: '_nuxt/'
+  },
+
+  ssr: true,
+
   eslint: {
     config: {
       stylistic: {
