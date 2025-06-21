@@ -6,5 +6,5 @@
 - SERP Media (https://serp.media)
 - Boxing Undefeated (https://boxingundefeated.com)
 - DAFT FM (https://daft.fm)
-- SERP Dental (https://serp.dental) (SOLD)
-- SERP Agency (https://serp.agency) (SOLD)
+- SERP Dental (https://serp.dental) (ACQUIRED)
+- SERP Agency (https://serp.agency) (ACQUIRED)

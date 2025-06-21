@@ -20,9 +20,9 @@ hero:
     - src: /brands/daft.fm.jpeg
       alt: DAFT FM - Music Platform
     - src: /brands/serp.agency.jpeg
-      alt: SERP Agency - Digital Agency (SOLD)
+      alt: SERP Agency - Digital Agency (ACQUIRED)
     - src: /brands/serpdental.com.jpeg
-      alt: SERP Dental - Dental Platform (SOLD)
+      alt: SERP Dental - Dental Platform (ACQUIRED)
     - src: /brands/serp.co.jpeg
       alt: SERP.co - Digital Platform
     - src: /brands/serpai.jpg
@@ -77,14 +77,14 @@ experience:
         url: "https://daft.fm"
         color: "#10B981"
     - position: "Dental Platform"
-      date: "SOLD"
+      date: "ACQUIRED"
       company:
         name: SERP Dental
         logo: ""
         url: "https://serp.dental"
         color: "#EF4444"
     - position: "Digital Agency"
-      date: "SOLD"
+      date: "ACQUIRED"
       company:
         name: SERP Agency
         logo: ""
